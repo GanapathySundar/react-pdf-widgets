@@ -1,0 +1,37 @@
+{
+  "name": "react-pdf-widgets",
+  "version": "1.0.0",
+  "description": "PDF Widgets using ReactPDF",
+  "main": "index.js",
+  "repository": "https://github.com/GanapathySundar/react-pdf-widgets.git",
+  "author": "Ganapathy <ganapathy.s>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@react-pdf/renderer": "^2.0.6",
+    "@react-pdf/styled-components": "^1.4.0",
+    "d3": "^6.7.0",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/d3": "^6.3.0",
+    "@types/jest": "^26.0.22",
+    "@types/lodash": "^4.14.168",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-react": "^7.23.2",
+    "jest": "^26.6.3",
+    "jest-junit": "^12.0.0",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  }
+}
