@@ -1,3 +1,6 @@
+export type RECORD = Record<string, number | string | boolean | Date>;
+export type RECORDS = RECORD[];
+
 /**
  * Definition of color for a specific element. It can be a background or color element
  */
@@ -20,6 +23,7 @@ export interface IBorderDefinition {
 }
 
 /**
+ *
  * Widget container props
  */
 export interface IWidgetContainerProps {
@@ -32,4 +36,5 @@ export interface IWidgetContainerProps {
  */
 export interface IBaseWidgetProps {
     container?: IWidgetContainerProps;
+    data: RECORDS;
 }

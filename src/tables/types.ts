@@ -1,4 +1,6 @@
 // Type definitions and interface declarations for the table components
 
-export interface ITableProps {
+import {IBaseWidgetProps} from '../base/types';
+
+export interface ITableProps extends IBaseWidgetProps{
 }

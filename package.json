@@ -2,20 +2,30 @@
   "name": "react-pdf-widgets",
   "version": "1.0.0",
   "description": "PDF Widgets using ReactPDF",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": "https://github.com/GanapathySundar/react-pdf-widgets.git",
   "author": "Ganapathy <ganapathy.s>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "lib-build": "tsc -p tsconfig.lib.json"
+  },
   "dependencies": {
-    "@react-pdf/renderer": "^2.0.6",
-    "@react-pdf/styled-components": "^1.4.0",
     "d3": "^6.7.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "@react-pdf/renderer": "^2.0.19",
+    "@react-pdf/styled-components": "^1.4.0"
   },
   "devDependencies": {
+    "@react-pdf/renderer": "^2.0.19",
+    "@react-pdf/styled-components": "^1.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "@types/d3": "^6.3.0",
     "@types/jest": "^26.0.22",
     "@types/lodash": "^4.14.168",
